@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="https://developers.google.com/ml-kit/vision/object-detection/images/object_detection2x.png">
+    <center>
+      <h1 class="btn btn-warning heading">AI object detection</h1>
+      <br><br>
+      <a href="detect.html">
+     <button onclick="shoe()" class="btn btn-success" id="start">Shoe</button>
+      </a>
+     <br>
+     <br>
+     <a href="detect.html">
+     <button onclick="person()" class="btn btn-success" id="start">Person</button>
+    </a>
+     <br>
+     <br>
+     <a href="detect.html">
+     <button onclick="tie()" class="btn btn-success" id="start">Tie</button>
+    </a>
+
+    <br>
+    <br>
+
+    <input type="text" placeholder="Type if any other thing" id="other" class="form-control "/>
+    <br>
+    <br>
+    <br>
+    <button onclick="sumbit()"  class="btn btn-success">Submit</button>
+     <!-- <button onclick="start()" class="btn btn-success" id="start"></button> -->
+
+      </center>
+      <div class="copy_right_footer">
+        Developed by - WhitehatJr Team
+      </div>
+</body>
+<script src="code.js"></script>
+<!-- <script src="main.js"></script> -->
+</html>
